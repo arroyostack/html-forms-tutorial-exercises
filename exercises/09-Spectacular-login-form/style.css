@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@300&display=swap");
+
+body {
+	background: #072657;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto", sans-serif;
+}
+
+.login {
+	margin-top: 30vh;
+}
+
+.login {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Nunito", sans-serif;
+	color: white;
+	font-size: 45px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input[type="text"] {
+	background: #051a3d;
+	color: grey;
+	padding: 0.7rem;
+	border: 0;
+	border-radius: 5px;
+	margin-bottom: 0.7rem;
+}
+input[type="password"] {
+	background: #051a3d;
+	color: grey;
+	padding: 0.7rem;
+	border: 0;
+	border-radius: 5px;
+	margin-bottom: 0.7rem;
+}
+
+button[type="submit"] {
+	font-family: "Nunito", sans-serif;
+	padding: 0.7rem;
+	font-weight: bold;
+	color: white;
+	background: #4874d7;
+	border: 0;
+	border-radius: 5px;
+}
+
+.login {
+	width: 30%;
+	height: 30%;
+}
